@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+        <link rel="stylesheet" type="text/css" href="carousel.css">
+        <title>Good Boys</title>
+
+        <style>
+            .img-circle{
+                height:600px;
+                max-width:600px;
+            }
+            body{
+               background-image: url("http://motoki-y.sakura.ne.jp/kabegami/252/b.gif");
+               background-size: cover contain;
+               background-repeat: repeat;
+             }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Jumbotron -->
+            <div class="jumbotron">
+                <h1>Good Boys</h1>
+            </div>
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-inverse">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Good Boy's</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="GoodBoys.html">About</a></li>
+                    <li><a href="Specials.html">Specials</a></li>
+                    <!-- Gather the related links into a dropdown -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Type of Clothes
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Tops.html">Tops</a></li>
+                            <li><a href="Accessories.html">Accessories</a></li>
+                            <li><a href="Shoes.html">Shoes</a></li>
+                        </ul>
+                    </li>
+                    <!-- Gather the related links into a dropdown -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Seasonal
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Fall</a></li>
+                            <li><a href="#">Winter</a></li>
+                            <li><a href="#">Spring</a></li>
+                            <li><a href="#">Summer</a><li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="container">
+            <div class="page-header">
+              <div class="header">
+                <h1>Dog Apparel</h1>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h2>Learn More</h2>
+                        <!-- Make a quick access dropdown -->
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                Clothes <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#feat-1">Top</a></li>
+                                <li><a href="#feat-2">Accessories</a></li>
+                                <li><a href="#feat-3">Shoes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-4" id="feat-1">
+                    <h3>Tops</h3>
+                    <p>
+                        Have you ever looked at your dog or any dog at all and just thought "That dog would look great in a top!"
+                        Here we have Shirts, Dresses, Sweaters, Jackets, and much more!
+                        These tops have been made to keep your dog comfortable and fashionable.
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <a href="Tops.html"><img height="800px" class="img-circle" src="http://3.bp.blogspot.com/_Xd2tr8jvrfw/TDsDT-DydtI/AAAAAAAACLs/upCVnV4Ywd8/s400/Humorous+Tank+Tops+Dog+Clothes.jpg"></a>
+                </div>
+            </div>
+          </div>
+          <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-4" id="feat-2">
+                    <h3>Accessories</h3>
+                    <p>
+                      Your Dog Deserves more and You Know It! That's why here at Good Boys we sell
+                      the finest accessories that can turn your dog from a good boy
+                      to the BEST BOY!
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <a href="Accessories.html"><img class="img-circle" src="https://i.pinimg.com/originals/78/2f/65/782f650b5787f721e354156da643cc37.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-4" id="feat-3">
+                    <h3>Shoes</h3>
+                    <p>
+                      If your dog is a good boy like most, They deserve to have the finest footwear avaliable,
+                      and here at Good Boy's we have what your dog deserves.
+
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <a href="Shoes.html"><img class="img-circle" src="https://images.baxterboo.com/global/images/products/large/pawz-disposable-dog-booties-12pk-xsmall-orange-1.jpg"></a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <footer class="container-fluid text-center well">
+           <h3>hgs</h3>
+           <h5></h5>
+           <h4><span class="glyphicon glyphicon-phone-alt"></span>(566)555-5555</h4>
+        </footer>
+
+    </body>
+</html>
